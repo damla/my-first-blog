@@ -25,7 +25,7 @@ SECRET_KEY = 'g-@+)!yz-*89x_ih1-4ig8(d2cpok(jhj*kbqwk8o9mc-18k3n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*'] #butun ipler baglanabilir demektir
 
 
 # Application definition
