@@ -14,5 +14,5 @@ class Post(models.Model): #veritabani modeli modelsten anlasiliyor
         self.save() #veritabanina kaydediyor
 
     def __str__(self):
-    return self.baslik #toString basligi sayfada gosteriyor
+        return self.baslik  #toString basligi sayfada gosteriyor
 #silersen post objects yazar kendi iskeletinden
